@@ -1,0 +1,244 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.headq
+{
+    background-image: url("fitness-g477f31b60_1920.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 22cm;
+    border: 1px solid black;
+    
+} 
+.left
+{
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top:0px;
+} 
+.left img
+{
+   width: 150px; 
+   filter: invert(85%);
+   
+}
+.mid
+{
+    display: block;
+    width: 37%;
+    margin: 0px auto;
+    text-decoration: none;
+   
+}
+.right
+{
+    position: absolute;
+    right: 34px;
+    top:20px;
+    display: inline-block;
+}
+.navbar li
+{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a
+{
+    color:aliceblue;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover,.navbar li a.active
+{
+    color:aliceblue;
+    text-decoration: underline;
+    padding: 34px 23px;
+    color: rgba(248, 240, 237, 0.678);
+}
+/*
+.btn
+{
+    margin: 0px 9px;
+    color: white;
+    background-color: rgb(22, 18, 18);
+    padding: 4px 14px;
+    border: 2px solid grey;
+    font-size: 23px;
+    cursor:pointer;
+}
+.btn:hover
+{
+    background-color: rgb(32, 31, 31);
+}*/
+.container
+{
+    border: 3px solid white;
+    border-radius: 28px;
+    margin: 100px 70px;
+    padding: 60px ;
+    width: 45%;
+    margin-top:5.5cm;
+}
+.formcontent input
+{
+  text-align:center;
+  display: block;
+  width: 55%;
+  padding: 1px;
+  border:2px solid rgb(68, 64, 64);
+  margin: 11px auto;
+  font-size: 25px;
+  border-radius: 8px;
+}
+.container button
+{
+  text-align:center;
+  width: 35%;
+  margin-left:5.5cm;
+  font-size: 25px;
+  display: block;
+  border-radius: 18px;
+  cursor: pointer;
+}
+.container h1
+{
+    margin-left:4.5cm;
+    margin-bottom: 2px;
+    text-align: center;
+    display: block;
+    width: 50%;
+    color:rgb(22, 16, 16);
+ 
+
+}
+.f1
+{
+    display: flex;
+    background-color: rgba(248, 240, 237, 0.678);
+}
+.first
+{
+    width: 60%;
+    background-color: rgba(68, 34, 34, 0.041);
+}
+.first img
+{
+    margin-top: 1cm;
+    width:60%;
+    height: 11cm;
+  margin-left: 2cm;
+  border: 4px solid black;
+  background-color: rgba(68, 34, 34, 0.041);
+
+}
+.a
+{
+text-align: center;
+font-size:35px;
+margin-top: 0cm;
+color: rgb(51, 30, 17);
+
+}
+
+.second pre
+{
+   font-size: 22px;
+   margin-top: 1cm;
+  
+   background-color: rgba(68, 34, 34, 0.041);
+
+}
+.f11
+{
+    display: flex;
+    background-color: rgba(248, 240, 237, 0.678);
+}
+.first1
+{
+    width: 60%;
+    background-color: rgba(68, 34, 34, 0.041);
+
+}
+
+.second1 img
+{
+    margin-top: 1cm;
+    width:100%;
+    height: 11cm;
+   border: 4px solid black;
+   left: 78%;
+   background-color: rgba(68, 34, 34, 0.041);
+
+}
+.first1 pre
+{
+    font-size: 25px;
+    margin-top: 1cm;
+    background-color: rgba(68, 34, 34, 0.041);
+
+}
+footer
+{
+    width: 100%;
+    height: auto;
+    color:white;
+    background-color: rgba(27, 20, 20, 0.9);
+}
+.footercontent
+{
+align-items:center ;
+justify-content:center;
+text-align: center;
+}
+
+.fa-facebook {
+    color: white;
+}
+.fa-instagram {
+    color: white;   
+}
+.fa-youtube 
+{
+    color: white;
+}
+.fa-twitter 
+{
+    color: white;
+}
+.fa-twitter:hover
+{
+    background: #55ACEE;
+}
+.fa-youtube:hover 
+{
+    background: #bb0000;
+}
+.fa-instagram:hover {
+    color: rgb(146, 38, 56);
+}
+.fa-facebook:hover {
+    color: rgb(9, 85, 110);
+}
+.social 
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    margin: 1rem 0 3rem 0 ;
+}
+.social li
+{
+margin: 0px 10px;
+}
+.social a i
+{
+font-size: 1.8rem;
+}
+
